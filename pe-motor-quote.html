@@ -7467,21 +7467,20 @@ If a valuation is present then tell the customer:
         </span>
        
 </x-section>
-<div class="row twelve columns">
-    <div>
-        <button id="getQuoteBtn" data-id="quote" class="radius button" style="width:100%"><i
-                style="position: relative;left: -0.8em;top:0.15em" class="general foundicon-search"></i> Get Quotes
-            <span class="showonlywhendisabled"><img src="img/477.gif" width="16px"></span></button>
+    <div class="row twelve columns">
+        <div>
+            <button id="getQuoteBtn" data-id="quote" class="radius button" style="width:100%">
+                <i style="position: relative;left: -0.8em;top:0.15em" class="general foundicon-search"></i> Get Quotes
+                <span class="showonlywhendisabled"><img src="img/477.gif" width="16px"></span>
+            </button>
+        </div>
     </div>
-</div>
 </section>
 
 <section style="" id="quotes" class="panel row radius">
     <x-quotescreen whats="W4SKB - BLACK - VOLKSWAGEN - CADDY SDI">
        
-
-       
-        <section style="width:1400px; float: left;">
+        <section style="width:1400px; float: left;" class="pe-quotescreen-left">
        
             <div class="panel">
                            
@@ -7517,7 +7516,7 @@ If a valuation is present then tell the customer:
                                     <span>Select</span>
                                     <span class="showonlywhendisabled nopadding">
                                         <br>
-                                        <img class="" src="img/477.gif" width="16px">
+                                        <img class="pe-loading" src="img/477.gif" width="16px">
                                     </span>
                                 </a>
                             </li>
@@ -7533,283 +7532,119 @@ If a valuation is present then tell the customer:
                     </x-quote>
                 </li>
                 <li normal="normal" class="pe-panel pe-panel-quote-container pe-panel-not-quoted">
-                    <x-quote price="Not Available" monthly="Not Available" title="Axa" id="AXA_1"
-                             button="Not Available">
-                               
-
+                    <x-quote price="Not Available" monthly="Not Available" title="Axa" id="AXA_1" button="Not Available">
                                
                         <ul class="pricing-table pe-panel-quote">
-
                                        
-                            <li id="title" class="title">Axa</li>
-
+                            <li id="title" class="title pe-panel-quote-title">Axa</li>
                                        
                             <li class="price pe-panel-quote-price">Not Available</li>
                                        
                             <li class="bullet-item pe-panel-quote-price-monthly">Monthly: Not Available</li>
-
                                        
                             <li class="cta-button pe-panel-quote-cta" id="button">
-                                <a class="radius button" data-price="Not Available" data-id="AXA_1" on-click="onSelect">
+                                <a class="radius button btn btn-white btn-rounded btn-disabled" data-price="Not Available" data-id="AXA_1" on-click="onSelect">
                                     <span>Not Available</span>
                                     <span class="showonlywhendisabled nopadding">
                                         <br>
-                                        <img src="img/477.gif" width="16px">
+                                        <img class="pe-loading" src="img/477.gif" width="16px">
                                     </span>
                                 </a>
                             </li>
-
                                        
                             <li class="bullet-item pe-panel-quote-compare">
                                 <a class="pointer link" on-click="onCompare">Compare</a>
                             </li>
                                    
                         </ul>
-
                            
                     </x-quote>
                 </li>
-<li normal="normal">
-    <x-quote price="Not Available" monthly="Not Available" title="Aviva NU001608" id="avivatwo"
-             button="Not Available">
-               
-
-               
-        <ul class="pricing-table">
-
-                       
-            <li id="title" class="title">Aviva NU001608</li>
-
-                       
-            <li class="price">Not Available</li>
-                       
-            <li class="bullet-item">Monthly: Not Available</li>
-
-                       
-            <li class="cta-button" id="button"><a class="radius button" data-price="Not Available"
-                                                  data-id="avivatwo" on-click="onSelect"><span>Not Available</span>
-                                <span class="showonlywhendisabled nopadding"><br><img src="img/477.gif"
-                                                                                      width="16px"></span></a></li>
-
-                       
-            <li class="bullet-item"><a class="pointer link" on-click="onCompare">Compare</a></li>
-                   
-        </ul>
-
-           
-    </x-quote>
-</li>
-<li normal="normal">
-    <x-quote price="Not Available" monthly="Not Available" title="Ageas Guard EDI Econ" id="ageasecon"
-             button="Not Available">
-               
-
-               
-        <ul class="pricing-table">
-
-                       
-            <li id="title" class="title">Ageas Guard EDI Econ</li>
-
-                       
-            <li class="price">Not Available</li>
-                       
-            <li class="bullet-item">Monthly: Not Available</li>
-
-                       
-            <li class="cta-button" id="button"><a class="radius button" data-price="Not Available"
-                                                  data-id="ageasecon" on-click="onSelect"><span>Not Available</span>
-                                <span class="showonlywhendisabled nopadding"><br><img src="img/477.gif"
-                                                                                      width="16px"></span></a></li>
-
-                       
-            <li class="bullet-item"><a class="pointer link" on-click="onCompare">Compare</a></li>
-                   
-        </ul>
-
-           
-    </x-quote>
-</li>
-<li normal="normal">
-    <x-quote price="Not Available" monthly="Not Available" title="Zenith" id="Zenith1"
-             button="Not Available">
-               
-
-               
-        <ul class="pricing-table">
-
-                       
-            <li id="title" class="title">Zenith</li>
-
-                       
-            <li class="price">Not Available</li>
-                       
-            <li class="bullet-item">Monthly: Not Available</li>
-
-                       
-            <li class="cta-button" id="button"><a class="radius button" data-price="Not Available"
-                                                  data-id="Zenith1" on-click="onSelect"><span>Not Available</span>
-                                <span class="showonlywhendisabled nopadding"><br><img src="img/477.gif"
-                                                                                      width="16px"></span></a></li>
-
-                       
-            <li class="bullet-item"><a class="pointer link" on-click="onCompare">Compare</a></li>
-                   
-        </ul>
-
-           
-    </x-quote>
-</li>
-<li normal="normal">
-    <x-quote price="Not Available" monthly="Not Available" title="Ageas Elite 75" id="ageaselite"
-             button="Not Available">
-               
-
-               
-        <ul class="pricing-table">
-
-                       
-            <li id="title" class="title">Ageas Elite 75</li>
-
-                       
-            <li class="price">Not Available</li>
-                       
-            <li class="bullet-item">Monthly: Not Available</li>
-
-                       
-            <li class="cta-button" id="button"><a class="radius button" data-price="Not Available"
-                                                  data-id="ageaselite" on-click="onSelect"><span>Not Available</span>
-                                <span class="showonlywhendisabled nopadding"><br><img src="img/477.gif"
-                                                                                      width="16px"></span></a></li>
-
-                       
-            <li class="bullet-item"><a class="pointer link" on-click="onCompare">Compare</a></li>
-                   
-        </ul>
-
-           
-    </x-quote>
-</li>
-<li normal="normal">
-    <x-quote price="Not Available" monthly="Not Available" title="Axa - discount" id="AXA_D1"
-             button="Not Available">
-               
-
-               
-        <ul class="pricing-table">
-
-                       
-            <li id="title" class="title">Axa - discount</li>
-
-                       
-            <li class="price">Not Available</li>
-                       
-            <li class="bullet-item">Monthly: Not Available</li>
-
-                       
-            <li class="cta-button" id="button"><a class="radius button" data-price="Not Available"
-                                                  data-id="AXA_D1" on-click="onSelect"><span>Not Available</span>
-                                <span class="showonlywhendisabled nopadding"><br><img src="img/477.gif"
-                                                                                      width="16px"></span></a></li>
-
-                       
-            <li class="bullet-item"><a class="pointer link" on-click="onCompare">Compare</a></li>
-                   
-        </ul>
-
-           
-    </x-quote>
-</li>
-</ul>
+            </ul>
        
-<section id="details"></section>
+            <section id="details"></section>
        
-</section>
+        </section>
        
-<section style="width: 450px; float:right">
-               
-    <div class="panel">
-                   
-        <header>Customize your quote</header>
-                   
-        <div id="menu">
-                           
-            <div class="left">
-                                    <label>Cover type:</label>
-                                    <select>
-                                       
-                <option selected="selected">Comprehensive</option>
-                                       
-                <option>Third party, fire and theft</option>
-                                       
-                <option>Third party only</option>
-                                    </select>
-                               
-            </div>
-                           
-            <div class="right">
-                                    <label>voluntary excess:</label>
-                                    <select>
-                                       
-                <option>£0</option>
-                                       
-                <option>£50</option>
-                                       
-                <option>£100</option>
-                                       
-                <option>£150</option>
-                                       
-                <option>£200</option>
-                                       
-                <option selected="selected">£250</option>
-                                       
-                <option>£300</option>
-                                       
-                <option>£350</option>
-                                       
-                <option>£400</option>
-                                       
-                <option>£450</option>
-                                       
-                <option>£500</option>
-                                       
-                <option>£600</option>
-                                       
-                <option>£700</option>
-                                       
-                <option>£800</option>
-                                       
-                <option>£900</option>
-                                       
-                <option>£1,000</option>
-                                    </select>
-                               
-            </div>
-                           
-            <div class="left">
-                                    <label>Protect your No Claims Discount:</label>
-                                    <select>
-                                       
-                <option selected="selected">No</option>
-                                       
-                <option>Yes</option>
-                                    </select>
-                               
-            </div>
-                           
-            <div class="right">
-                                    <label>Policy start date:</label>
-                                    <select>
-                                       
-                <option>Today</option>
-                                    </select>
-                               
-            </div>
+        <section style="width: 450px; float:right" class="pe-quotescreen-right">
                        
-        </div>
+            <div class="panel pe-form">
+                           
+                <header>Customize your quote</header>
+                           
+                <div id="menu" class="pe-customise-quote">
+                                   
+                    <div class="left">
+                        <label>Cover type:</label>
+                        <select class="pe-select">    
+                            <option selected="selected pe-selected">Comprehensive</option>
+                            <option>Third party, fire and theft</option>
+                            <option>Third party only</option>
+                        </select>
+                    </div>
+                           
+                    <div class="right">
+                        <label>voluntary excess:</label>
+                            <select class="pe-select">
+                                           
+                            <option>£0</option>
+                                                   
+                            <option>£50</option>
+                                                   
+                            <option>£100</option>
+                                                   
+                            <option>£150</option>
+                                                   
+                            <option>£200</option>
+                                                   
+                            <option selected="selected pe-selected">£250</option>
+                                                   
+                            <option>£300</option>
+                                                   
+                            <option>£350</option>
+                                                   
+                            <option>£400</option>
+                                                   
+                            <option>£450</option>
+                                                   
+                            <option>£500</option>
+                                                   
+                            <option>£600</option>
+                                                   
+                            <option>£700</option>
+                                                   
+                            <option>£800</option>
+                                                   
+                            <option>£900</option>
+                                                   
+                            <option>£1,000</option>
+                        </select>
+                                   
+                    </div>
+                               
+                    <div class="left">
+                        <label>Protect your No Claims Discount:</label>
+                        <select class="pe-select-yes-no">
+                                               
+                            <option selected="selected pe-yes-no-selected">No</option>
+                                               
+                            <option>Yes</option>
+                        </select>
+                                       
+                    </div>
+                           
+                    <div class="right">
+                        <label>Policy start date:</label>
+                        <select class="pe-select pe-selector-date">
+                            <option>Today</option>
+                        </select>
+                    </div>
+                       
+                </div>
                
-    </div>
-           
-</section>
+            </div>
+                   
+        </section>
 
    
 </x-quotescreen>
@@ -7887,29 +7722,23 @@ If a valuation is present then tell the customer:
 <polymer-element name="x-quote" attributes="image price monthly title id button">
        
     <template id="x-template-x-quote">
-               
 
-               
-        <ul class="pricing-table">
-
+        <ul class="pricing-table pe-panel-quote">
                        
-            <li id="title" class="title"></li>
-
+            <li id="title" class="title pe-panel-quote-title"></li>
                        
-            <li class="price">{{price}}</li>
+            <li class="price pe-panel-quote-price">{{price}}</li>
                        
-            <li class="bullet-item">Monthly: {{monthly}}</li>
-
+            <li class="bullet-item pe-panel-quote-price-monthly">Monthly: {{monthly}}</li>
                        
-            <li class="cta-button" id="button">
-
-                                    <!--<template bind if="{{price != 'Not Available'}}"><a class="radius button" data-id="{{id}}" on-click="onSelect"><span>Select</span></a></template>&nbsp;
-                    <template bind if="{{price == 'Not Available'}}"><a class="radius button"><span>Not Available</span></a></template>&nbsp;-->
-                           
+            <li class="cta-button pe-panel-quote-cta" id="button">
+                <!--<template bind if="{{price != 'Not Available'}}"><a class="radius button" data-id="{{id}}" on-click="onSelect"><span>Select</span></a></template>&nbsp;
+                     <template bind if="{{price == 'Not Available'}}"><a class="radius button"><span>Not Available</span></a></template>&nbsp;-->
             </li>
-
                        
-            <li class="bullet-item"><a class="pointer link" on-click="onCompare">Compare</a></li>
+            <li class="bullet-item pe-panel-quote-compare">
+                <a class="pointer link" on-click="onCompare">Compare</a>
+            </li>
                    
         </ul>
 
@@ -7958,9 +7787,9 @@ If a valuation is present then tell the customer:
            
 
            
-    <section style="width:1400px; float: left;">
+    <section class="pe-section" style="width:1400px; float: left;" class="pe-quotescreen-left">
                
-        <div class="panel">
+        <div class="panel pe-section-header">
                        
             <header>What's covered?</header>
             <div id="whatis"></div>
@@ -7970,27 +7799,27 @@ If a valuation is present then tell the customer:
         </div>
                 <br>
                
-        <ul id="quotes" class="large-block-grid-8">
+        <ul id="quotes" class="pe-panels pe-panels-quote large-block-grid-8">
                    
         </ul>
                
-        <section id="details"></section>
+        <section id="details" class="pe-section-quote-details"></section>
                
     </section>
            
-    <section style="width: 450px; float:right">
+    <section style="width: 450px; float:right" class="pe-quotescreen-right">
                    
-        <div class="panel">
+        <div class="panel pe-form">
                        
             <header>Customize your quote</header>
                        
-            <div id="menu">
+            <div id="menu" class="pe-customise-quote">
                                
                 <div class="left">
-                                        <label>Cover type:</label>
-                                        <select>
+                    <label>Cover type:</label>
+                    <select class="pe-select">
                                            
-                    <option selected="selected">Comprehensive</option>
+                    <option selected="selected pe-selected">Comprehensive</option>
                                            
                     <option>Third party, fire and theft</option>
                                            
@@ -8001,7 +7830,7 @@ If a valuation is present then tell the customer:
                                
                 <div class="right">
                                         <label>voluntary excess:</label>
-                                        <select>
+                                        <select class="pe-select">
                                            
                     <option>£0</option>
                                            
@@ -8013,7 +7842,7 @@ If a valuation is present then tell the customer:
                                            
                     <option>£200</option>
                                            
-                    <option selected="selected">£250</option>
+                    <option selected="selected pe-selected">£250</option>
                                            
                     <option>£300</option>
                                            
@@ -8040,9 +7869,9 @@ If a valuation is present then tell the customer:
                                
                 <div class="left">
                                         <label>Protect your No Claims Discount:</label>
-                                        <select>
+                                        <select class="pe-select-yes-no">
                                            
-                    <option selected="selected">No</option>
+                    <option selected="selected pe-yes-no-selected">No</option>
                                            
                     <option>Yes</option>
                                         </select>
@@ -8050,11 +7879,10 @@ If a valuation is present then tell the customer:
                 </div>
                                
                 <div class="right">
-                                        <label>Policy start date:</label>
-                                        <select>
-                                           
-                    <option>Today</option>
-                                        </select>
+                    <label>Policy start date:</label>
+                    <select class="pe-select pe-selector-date">
+                        <option>Today</option>
+                    </select>
                                    
                 </div>
                            
@@ -8079,7 +7907,7 @@ If a valuation is present then tell the customer:
             var section = document.createElement('section');
 
             var output = [];
-            output.push('<section><b>Documents:</b><span style="float:right" class="button radius" data-enquiry="', enquiry, '" data-id="', data.productId || '', '" data-action="to-the-basket"><i class="general foundicon-cart" style="position: relative;left: -0.8em;"></i><span style="position:relative; top: -0.1em" >Add to basket</span></span><br /><br />')
+            output.push('<section><b>Documents:</b><span style="float:right" class="button radius btn" data-enquiry="', enquiry, '" data-id="', data.productId || '', '" data-action="to-the-basket"><i class="general foundicon-cart" style="position: relative;left: -0.8em;"></i><span style="position:relative; top: -0.1em" >Add to basket</span></span><br /><br />')
             _.each(data.staticDocuments, function (value, name) {
                 output.push('<a target="_blank" href="/service', value, '">', name, '</a>')
                 output.push('&nbsp;')

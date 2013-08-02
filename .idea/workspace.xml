@@ -7,7 +7,9 @@
     <ignored path="pe-motor-quote.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="12b87c1e-6152-41f9-b6c3-5b78454a4454" time="1375430972198" ignored="false" />
-    <file path="/pe-motor-quote.html" changelist="12b87c1e-6152-41f9-b6c3-5b78454a4454" time="1375447859651" ignored="false" />
+    <file path="/pe-motor-quote.html" changelist="12b87c1e-6152-41f9-b6c3-5b78454a4454" time="1375453648454" ignored="false" />
+    <file path="$USER_HOME$/projects/z-text/text.css" changelist="12b87c1e-6152-41f9-b6c3-5b78454a4454" time="1375450218443" ignored="false" />
+    <file path="/text.css" changelist="12b87c1e-6152-41f9-b6c3-5b78454a4454" time="1375450174588" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
           <file leaf-file-name="pe-motor-quote.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pe-motor-quote.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7909" column="101" selection-start="326149" selection-end="326149" vertical-scroll-proportion="-1.1373391">
+                <state line="1788" column="10" selection-start="41038" selection-end="41038" vertical-scroll-proportion="-0.28374892">
                   <folding>
                     <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#nav#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
@@ -73,9 +75,9 @@
                     <element signature="n#style#0;n#div#13;n#body#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#14;n#body#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#15;n#body#0;n#!!top" expanded="true" />
-                    <marker date="1375448019000" expanded="true" signature="326112:326123" placeholder="..." />
-                    <marker date="1375448019000" expanded="true" signature="326286:326318" placeholder="..." />
-                    <marker date="1375448019000" expanded="true" signature="326337:326367" placeholder="..." />
+                    <marker date="1375453795000" expanded="true" signature="326623:326634" placeholder="..." />
+                    <marker date="1375453795000" expanded="true" signature="326797:326829" placeholder="..." />
+                    <marker date="1375453795000" expanded="true" signature="326848:326878" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -88,51 +90,8 @@
           <file leaf-file-name="pe-motor-quote.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pe-motor-quote.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7637" column="67" selection-start="316493" selection-end="316536" vertical-scroll-proportion="0.08841202">
-                  <folding>
-                    <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#nav#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#a#0;n#li#1;n#ul#1;n#section#0;n#nav#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#section#1;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#i#0;n#span#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#section#1;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#span#1;n#span#0;n#a#0;n#li#0;n#ul#0;n#section#1;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#section#2;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#section#3;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#section#4;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#section#5;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#i#0;n#a#0;n#section#0;n#div#0;n#section#5;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#i#0;n#a#1;n#section#0;n#div#0;n#section#5;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#section#6;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#table#0;n#section#6;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#section#7;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#section#7;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#i#0;n#button#0;n#div#0;n#div#0;n#section#7;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#section#0;n#x-quotescreen#0;n#section#8;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#x-quotescreen#0;n#section#8;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#section#1;n#x-quotescreen#0;n#section#8;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#section#9;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#class#1;n#section#0;n#template#0;n#polymer-element#3;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#template#0;n#polymer-element#3;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#class#0;n#section#1;n#template#0;n#polymer-element#3;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#3;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#4;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#5;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#6;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#7;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#8;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#9;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#10;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#11;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#12;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#13;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#14;n#body#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#15;n#body#0;n#!!top" expanded="true" />
-                    <marker date="1375448019000" expanded="true" signature="326112:326123" placeholder="..." />
-                    <marker date="1375448019000" expanded="true" signature="326286:326318" placeholder="..." />
-                    <marker date="1375448019000" expanded="true" signature="326337:326367" placeholder="..." />
-                  </folding>
+                <state line="7652" column="87" selection-start="316892" selection-end="316935" vertical-scroll-proportion="0.5012898">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -195,7 +154,24 @@
     <panes>
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pe-motor-quote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pe-motor-quote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pe-motor-quote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
     </panes>
   </component>
@@ -235,7 +211,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16960706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16960706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -320,7 +296,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pe-motor-quote.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7909" column="101" selection-start="326149" selection-end="326149" vertical-scroll-proportion="-1.1373391">
+        <state line="1788" column="10" selection-start="41038" selection-end="41038" vertical-scroll-proportion="-0.28374892">
           <folding>
             <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#nav#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
@@ -361,9 +337,9 @@
             <element signature="n#style#0;n#div#13;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#14;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#15;n#body#0;n#!!top" expanded="true" />
-            <marker date="1375448019000" expanded="true" signature="326112:326123" placeholder="..." />
-            <marker date="1375448019000" expanded="true" signature="326286:326318" placeholder="..." />
-            <marker date="1375448019000" expanded="true" signature="326337:326367" placeholder="..." />
+            <marker date="1375453795000" expanded="true" signature="326623:326634" placeholder="..." />
+            <marker date="1375453795000" expanded="true" signature="326797:326829" placeholder="..." />
+            <marker date="1375453795000" expanded="true" signature="326848:326878" placeholder="..." />
           </folding>
         </state>
       </provider>

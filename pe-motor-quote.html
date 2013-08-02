@@ -373,8 +373,6 @@ x-quotescreen x-quote, [is=x-quotescreen] x-quote {
 px solid #eee
 
 ;
-   
-
     }
 
     section.collection.collectionTrigger {
@@ -449,8 +447,8 @@ px solid #eee
 
 ;
         background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d80b8c),
-
 to
+
 (
 #71057a
 
@@ -472,6 +470,7 @@ to
         filter: progid:DXImageTransform.Microsoft.
 
 gradient
+
 (
 startColorstr
 
@@ -515,8 +514,8 @@ GradientType
 
 ;
         background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d80b8c),
-
 to
+
 (
 #71057a
 
@@ -538,6 +537,7 @@ to
         filter: progid:DXImageTransform.Microsoft.
 
 gradient
+
 (
 startColorstr
 
@@ -674,6 +674,7 @@ px
 px
 
 rgba
+
 (
 0
 ,
@@ -701,6 +702,7 @@ px
 px
 
 rgba
+
 (
 0
 ,
@@ -779,6 +781,7 @@ px
 px
 
 rgba
+
 (
 0
 ,
@@ -806,6 +809,7 @@ px
 px
 
 rgba
+
 (
 0
 ,
@@ -829,6 +833,7 @@ px
 px
 
 rgba
+
 (
 255
 ,
@@ -843,6 +848,8 @@ rgba
 
 ;
     /*background-image: url(http://icons.iconarchive.com/icons/visualpharm/icons8-metro-style/512/Very-Basic-Checked-checkbox-icon.png);*/
+
+
 
 
     }
@@ -915,6 +922,8 @@ select:focus, select:active, input[type=text]:focus {
 
 ;
     /* border: 1px solid black; */
+
+
 
 
     }
@@ -992,6 +1001,7 @@ px
 px solid
 
 rgb
+
 (
 191
 ,
@@ -1749,13 +1759,13 @@ px dashed #BBBBBB
 
 <body style="opacity: 1;">
 <section style="" class="colourful">
-    <section style="" class="row colourful">
+    <section style="" class="row colourful nav-primary">
         <nav class="top-bar" style="height:auto">
                
-            <section style="" class="top-bar-section">
+            <section style="" class="top-bar-section nav-primary">
 
                        
-                <ul class="left" id="top-menu-left">
+                <ul class="left nav-list" id="top-menu-left">
                     <li class="divider"></li>
                     <li class="sales-menu-item menu-button"><a class="selected"><i class="phone"></i> Sales</a></li>
                     <li class="divider"></li>
@@ -1765,7 +1775,7 @@ px dashed #BBBBBB
                     <li class="divider"></li>
                 </ul>
                    
-                <ul class="right" id="user">
+                <ul class="right nav-list" id="user">
                     <li class="divider"></li>
                     <li>
                         <a style="background-position:top right; background-repeat:no-repeat; padding-right: 55px;background-image: url(//www.gravatar.com/avatar/c3cdad4a0665098c1e467ef1263773da?d=identicon&amp;s=45)">srollett@qmetric.co.uk</a>
@@ -1830,12 +1840,12 @@ px dashed #BBBBBB
 
        
     <div class="panel centered two column">
-        <a onclick="login(&quot;sales&quot;)">
-            <span>
+                <a onclick="login(&quot;sales&quot;)">
+                <span>
                 <img src="img/App-user-icon.png">
                 <span class="gargantual">Logging in...</span>
             </span>
-        </a>
+                </a>
     </div>
 
 
@@ -7389,13 +7399,13 @@ If a valuation is present then tell the customer:
         <div class="panel">
             <section data-type="yesno" class="question yesno" data-level="0">
                 <label for="Checks_PrivateCredit" class="radius label">To ensure
-                our insurers and credit providers have the necessary facts to assess your insurance risk, verify
-                your identity, to help prevent fraud and to provide you with their best premium and payment options,
-                they may obtain information from third parties at quotation and renewal and in certain circumstances
-                where policy amendments are requested.  This information includes a quotation search from a credit
-                referencing agency. This search will appear on your credit report and will be visible to other
-                credit providers. It will be clear that this is a quotation rather than a credit application by you
-                to pay by monthly instalments. By selecting Yes you agree to this search.
+                    our insurers and credit providers have the necessary facts to assess your insurance risk, verify
+                    your identity, to help prevent fraud and to provide you with their best premium and payment options,
+                    they may obtain information from third parties at quotation and renewal and in certain circumstances
+                    where policy amendments are requested.  This information includes a quotation search from a credit
+                    referencing agency. This search will appear on your credit report and will be visible to other
+                    credit providers. It will be clear that this is a quotation rather than a credit application by you
+                    to pay by monthly instalments. By selecting Yes you agree to this search.
                 </label>
                 <br>
                 <ul class="custom-checkbox">
@@ -7405,7 +7415,8 @@ If a valuation is present then tell the customer:
                         <button class="label">Yes</button>
                     </label></li>
                     <li><input class="collection level0" id="3e" data-id="Checks_PrivateCredit1"
-                               name="Checks_PrivateCredit" data-name="Checks_PrivateCredit" value="No" type="radio"><label
+                               name="Checks_PrivateCredit" data-name="Checks_PrivateCredit" value="No"
+                               type="radio"><label
                             class="custom" for="3e"></label><label class="pushup" for="3e">
                         <button class="label">No</button>
                     </label></li>
@@ -7453,7 +7464,8 @@ If a valuation is present then tell the customer:
                         <button class="label">Yes</button>
                     </label></li>
                     <li><input class="collection level0" id="3i" data-id="Checks_CallsRecorded1"
-                               name="Checks_CallsRecorded" data-name="Checks_CallsRecorded" value="No" type="radio"><label
+                               name="Checks_CallsRecorded" data-name="Checks_CallsRecorded" value="No"
+                               type="radio"><label
                             class="custom" for="3i"></label><label class="pushup" for="3i">
                         <button class="label">No</button>
                     </label></li>
@@ -7467,21 +7479,21 @@ If a valuation is present then tell the customer:
         </span>
        
 </x-section>
-    <div class="row twelve columns">
-        <div>
-            <button id="getQuoteBtn" data-id="quote" class="radius button" style="width:100%">
-                <i style="position: relative;left: -0.8em;top:0.15em" class="general foundicon-search"></i> Get Quotes
-                <span class="showonlywhendisabled"><img src="img/477.gif" width="16px"></span>
-            </button>
-        </div>
+<div class="row twelve columns">
+    <div>
+        <button id="getQuoteBtn" data-id="quote" class="radius button" style="width:100%">
+            <i style="position: relative;left: -0.8em;top:0.15em" class="general foundicon-search"></i> Get Quotes
+            <span class="showonlywhendisabled"><img src="img/477.gif" width="16px"></span>
+        </button>
     </div>
+</div>
 </section>
 
 <section style="" id="quotes" class="panel row radius">
     <x-quotescreen whats="W4SKB - BLACK - VOLKSWAGEN - CADDY SDI">
-       
+               
         <section style="width:1400px; float: left;" class="pe-quotescreen-left">
-       
+                   
             <div class="panel">
                            
                 <header>What's covered?</header>
@@ -7491,10 +7503,10 @@ If a valuation is present then tell the customer:
                 </div>
             </div>
 
-            <br>
-       
-            <ul id="quotes" class="pe-panels pe-panels-quote large-block-grid-8">
+                    <br>
                    
+            <ul id="quotes" class="pe-panels pe-panels-quote large-block-grid-8">
+                       
                 <li normal="normal" class="pe-panel pe-panel-quote-container">
                     <x-quote price="£ 918.85" monthly="£ 78.2375" title="LV" id="LV1" button="Select">
                                
@@ -7512,7 +7524,8 @@ If a valuation is present then tell the customer:
 
                                        
                             <li class="cta-button pe-panel-quote-cta" id="button">
-                                <a class="radius button btn btn-white btn-rounded" data-price="£ 918.85" data-id="LV1" on-click="onSelect">
+                                <a class="radius button btn btn-white btn-rounded" data-price="£ 918.85" data-id="LV1"
+                                   on-click="onSelect">
                                     <span>Select</span>
                                     <span class="showonlywhendisabled nopadding">
                                         <br>
@@ -7532,7 +7545,8 @@ If a valuation is present then tell the customer:
                     </x-quote>
                 </li>
                 <li normal="normal" class="pe-panel pe-panel-quote-container pe-panel-not-quoted">
-                    <x-quote price="Not Available" monthly="Not Available" title="Axa" id="AXA_1" button="Not Available">
+                    <x-quote price="Not Available" monthly="Not Available" title="Axa" id="AXA_1"
+                             button="Not Available">
                                
                         <ul class="pricing-table pe-panel-quote">
                                        
@@ -7543,7 +7557,8 @@ If a valuation is present then tell the customer:
                             <li class="bullet-item pe-panel-quote-price-monthly">Monthly: Not Available</li>
                                        
                             <li class="cta-button pe-panel-quote-cta" id="button">
-                                <a class="radius button btn btn-white btn-rounded btn-disabled" data-price="Not Available" data-id="AXA_1" on-click="onSelect">
+                                <a class="radius button btn btn-white btn-rounded btn-disabled"
+                                   data-price="Not Available" data-id="AXA_1" on-click="onSelect">
                                     <span>Not Available</span>
                                     <span class="showonlywhendisabled nopadding">
                                         <br>
@@ -7561,11 +7576,11 @@ If a valuation is present then tell the customer:
                     </x-quote>
                 </li>
             </ul>
-       
+                   
             <section id="details"></section>
-       
+                   
         </section>
-       
+               
         <section style="width: 450px; float:right" class="pe-quotescreen-right">
                        
             <div class="panel pe-form">
@@ -7575,79 +7590,79 @@ If a valuation is present then tell the customer:
                 <div id="menu" class="pe-customise-quote">
                                    
                     <div class="left">
-                        <label>Cover type:</label>
-                        <select class="pe-select">    
-                            <option selected="selected pe-selected">Comprehensive</option>
-                            <option>Third party, fire and theft</option>
-                            <option>Third party only</option>
-                        </select>
+                                         <label>Cover type:</label>
+                                            <select class="pe-select">    
+                        <option selected="selected pe-selected">Comprehensive</option>
+                        <option>Third party, fire and theft</option>
+                        <option>Third party only</option>
+                                            </select>
                     </div>
-                           
-                    <div class="right">
-                        <label>voluntary excess:</label>
-                            <select class="pe-select">
-                                           
-                            <option>£0</option>
-                                                   
-                            <option>£50</option>
-                                                   
-                            <option>£100</option>
-                                                   
-                            <option>£150</option>
-                                                   
-                            <option>£200</option>
-                                                   
-                            <option selected="selected pe-selected">£250</option>
-                                                   
-                            <option>£300</option>
-                                                   
-                            <option>£350</option>
-                                                   
-                            <option>£400</option>
-                                                   
-                            <option>£450</option>
-                                                   
-                            <option>£500</option>
-                                                   
-                            <option>£600</option>
-                                                   
-                            <option>£700</option>
-                                                   
-                            <option>£800</option>
-                                                   
-                            <option>£900</option>
-                                                   
-                            <option>£1,000</option>
-                        </select>
                                    
-                    </div>
-                               
-                    <div class="left">
-                        <label>Protect your No Claims Discount:</label>
-                        <select class="pe-select-yes-no">
+                    <div class="right">
+                                            <label>voluntary excess:</label>
+                                            <select class="pe-select">
                                                
-                            <option selected="selected pe-yes-no-selected">No</option>
+                        <option>£0</option>
                                                
-                            <option>Yes</option>
-                        </select>
+                        <option>£50</option>
+                                               
+                        <option>£100</option>
+                                               
+                        <option>£150</option>
+                                               
+                        <option>£200</option>
+                                               
+                        <option selected="selected pe-selected">£250</option>
+                                               
+                        <option>£300</option>
+                                               
+                        <option>£350</option>
+                                               
+                        <option>£400</option>
+                                               
+                        <option>£450</option>
+                                               
+                        <option>£500</option>
+                                               
+                        <option>£600</option>
+                                               
+                        <option>£700</option>
+                                               
+                        <option>£800</option>
+                                               
+                        <option>£900</option>
+                                               
+                        <option>£1,000</option>
+                                            </select>
                                        
                     </div>
-                           
-                    <div class="right">
-                        <label>Policy start date:</label>
-                        <select class="pe-select pe-selector-date">
-                            <option>Today</option>
-                        </select>
+                                   
+                    <div class="left">
+                                            <label>Protect your No Claims Discount:</label>
+                                            <select class="pe-select-yes-no">
+                                               
+                        <option selected="selected pe-yes-no-selected">No</option>
+                                               
+                        <option>Yes</option>
+                                            </select>
+                                       
                     </div>
-                       
+                                   
+                    <div class="right">
+                                            <label>Policy start date:</label>
+                                            <select class="pe-select pe-selector-date">
+                        <option>Today</option>
+                                    </select>
+                    </div>
+                               
                 </div>
-               
+                       
             </div>
                    
         </section>
 
-   
-</x-quotescreen>
+           
+    </x-quotescreen>
 </section>
 
 <section style="display: none;" id="basketcontent" class="panel row radius"></section>
@@ -7816,8 +7831,8 @@ If a valuation is present then tell the customer:
             <div id="menu" class="pe-customise-quote">
                                
                 <div class="left">
-                    <label>Cover type:</label>
-                    <select class="pe-select">
+                                        <label>Cover type:</label>
+                                        <select class="pe-select">
                                            
                     <option selected="selected pe-selected">Comprehensive</option>
                                            
@@ -7880,9 +7895,9 @@ If a valuation is present then tell the customer:
                                
                 <div class="right">
                     <label>Policy start date:</label>
-                    <select class="pe-select pe-selector-date">
-                        <option>Today</option>
-                    </select>
+                                        <select class="pe-select pe-selector-date">
+                    <option>Today</option>
+                                        </select>
                                    
                 </div>
                            
